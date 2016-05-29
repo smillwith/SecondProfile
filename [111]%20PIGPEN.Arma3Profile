@@ -85,8 +85,8 @@ keyZoomOut[]={74,65539,132375};
 keyZoomOutToggle[]={330};
 keyZoomContIn[]={524299};
 keyZoomContOut[]={524293};
-keyZeroingUp[]={132366,486539288};
-keyZeroingDown[]={132367,486539302};
+keyZeroingUp[]={132366,486539277};
+keyZeroingDown[]={132367,486539276};
 keyGunElevUp[]={201};
 keyGunElevDown[]={209};
 keyGunElevSlow[]={42,54};
@@ -283,7 +283,7 @@ keyLandGear[]={34,131842};
 keyLandGearUp[]={34};
 keyFlapsDown[]={-1660944347};
 keyFlapsUp[]={-1660944346};
-keyLaunchCM[]={46,132356};
+keyLaunchCM[]={46,132356,210};
 keyNextCM[]={486539310,132361};
 keyHelicopterTrimOn[]={-1660944308};
 keyHelicopterTrimOff[]={-1660944301};
@@ -476,7 +476,7 @@ class MainMap
 	class Compass
 	{
 		inBack=0;
-		position[]={-0.030231036,-0.020157266,0.1};
+		position[]={-0.021980785,-0.018766422,0.1};
 		positionBack[]={-0.030015986,-0.0092709446,0.1};
 	};
 };
@@ -539,7 +539,19 @@ class Identity
 	pitch=0.9645164;
 };
 lastSPMission="OperationKillOrCapture.Chernarus_Summer";
-FavoriteServers[]={};
+FavoriteServers[]=
+{
+	
+	{
+		"68.232.176.191:2302",
+		2
+	},
+	
+	{
+		"65.31.7.134:2302",
+		2
+	}
+};
 difficulty="custom";
 keyPilotCamera[]={};
 keyEngineToggle[]={132368};
@@ -607,7 +619,7 @@ keySwitchWeaponGrp1[]={};
 keySwitchWeaponGrp2[]={};
 keySwitchWeaponGrp3[]={};
 keySwitchWeaponGrp4[]={};
-browsingSource="Internet";
+browsingSource="History";
 class Filter
 {
 	serverName="";
@@ -617,7 +629,7 @@ class Filter
 	minPlayers=0;
 	maxPlayers=0;
 	fullServers=1;
-	passwordedServers=1;
+	passwordedServers=0;
 	monetizedServers=1;
 	battleyeRequired=0;
 	expansions=1;
@@ -625,7 +637,7 @@ class Filter
 remoteIPAddress="65.31.7.134";
 remotePort=2302;
 difficultyMP="regular";
-lastMPMission="Redneck  Shooting Range";
+lastMPMission="111SOG_TheIsland";
 class JoysticksList
 {
 	class Joystick1
@@ -747,6 +759,7 @@ teamSwitchOffsetY=0;
 mouseSensitivityX=1;
 mouseSensitivityY=1;
 floatingZoneArea=0;
+battleyeLicense=1;
 headBob=1;
 sceneComplexity=1000000;
 shadowZDistance=100;
@@ -754,11 +767,11 @@ viewDistance=3799.9983;
 preferredObjectViewDistance=1600;
 terrainGrid=3.125;
 volumeCD=3.5535769;
-volumeFX=3.6313424;
+volumeFX=3.9424033;
 volumeSpeech=9.5415068;
 volumeVoN=9.5415068;
 vonRecThreshold=0.00091786013;
-gamma=1.1777147;
+gamma=1.0161306;
 brightness=0.70331192;
 fovTop=0.75;
 fovLeft=1.3333334;
