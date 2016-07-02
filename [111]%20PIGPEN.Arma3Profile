@@ -13,10 +13,10 @@ class ControllerSchemes
 keySwimUp[]={82};
 keySwimDown[]={44};
 keyAdjust[]={157};
-keyMoveForward[]={17,200};
-keyMoveBack[]={31,208};
-keyTurnLeft[]={203,30};
-keyTurnRight[]={205,32};
+keyMoveForward[]={17,200,198155};
+keyMoveBack[]={31,208,198147};
+keyTurnLeft[]={203,30,198154};
+keyTurnRight[]={205,32,198146};
 keyMoveUp[]={54,42};
 keyMoveDown[]={201};
 keyMoveFastForward[]={};
@@ -148,29 +148,29 @@ keySalute[]={18};
 keySitDown[]={16};
 keySurrender[]={};
 keyGetOver[]={82};
-keyAimUp[]={1048578};
-keyAimDown[]={1048579};
-keyAimLeft[]={1048576};
-keyAimRight[]={1048577};
-keyAimHeadUp[]={1048578,262916,197889};
-keyAimHeadDown[]={1048579,262912,197897};
-keyAimHeadLeft[]={1048576,262918};
-keyAimHeadRight[]={1048577,262914};
+keyAimUp[]={1048578,198149};
+keyAimDown[]={1048579,198157};
+keyAimLeft[]={1048576,198156};
+keyAimRight[]={1048577,198148};
+keyAimHeadUp[]={1048578,262916,197889,198149};
+keyAimHeadDown[]={1048579,262912,197897,198157};
+keyAimHeadLeft[]={1048576,262918,198156};
+keyAimHeadRight[]={1048577,262914,198148};
 keyIngamePause[]={1};
 keyMenuSelect[]={};
 keyMenuBack[]={14,65665};
 keyForceCommandingMode[]={41,199};
 keySwitchCommand[]={221,486539321};
-keyHeliUp[]={82};
-keyHeliDown[]={44,54};
+keyHeliUp[]={82,197390};
+keyHeliDown[]={44,54,197382};
 keyHeliLeft[]={1048576};
 keyHeliRight[]={1048577};
-keyAirBankLeft[]={30,203};
-keyAirBankRight[]={32,205};
+keyAirBankLeft[]={30,203,197384};
+keyAirBankRight[]={32,205,197376};
 keyHeliRudderLeft[]={16,211,198145};
 keyHeliRudderRight[]={18,209,198153};
-keyHeliForward[]={17,200,1048579};
-keyHeliBack[]={31,208,1048578};
+keyHeliForward[]={17,200,1048579,197385};
+keyHeliBack[]={31,208,1048578,197377};
 keyHeliFastForward[]={};
 keyAutoHover[]={45};
 keyAutoHoverCancel[]={45};
@@ -181,8 +181,8 @@ keyHeliCyclicForward[]={17,200,1048579,197385,197900};
 keyHeliCyclicBack[]={31,208,1048578,197377,197892};
 keyHeliCyclicLeft[]={30,203,197384,197899};
 keyHeliCyclicRight[]={32,205,197376,197891};
-keyHeliCollectiveRaise[]={42,82,132377,197897};
-keyHeliCollectiveLower[]={44,54,132378,197889};
+keyHeliCollectiveRaise[]={42,82,132377,197897,197390};
+keyHeliCollectiveLower[]={44,54,132378,197889,197382};
 keyHeliCollectiveRaiseCont[]={};
 keyHeliCollectiveLowerCont[]={};
 keyHeliEnginesToggle[]={-1660944366};
@@ -476,7 +476,7 @@ class MainMap
 	class Compass
 	{
 		inBack=0;
-		position[]={-0.021980785,-0.018766422,0.1};
+		position[]={-0.057670604,-0.029667199,0.1};
 		positionBack[]={-0.030015986,-0.0092709446,0.1};
 	};
 };
@@ -524,7 +524,8 @@ activeKeys[]=
 	"BIS_sp_tt01_done",
 	"BIS_sp_fd04_done",
 	"BIS_sp_fd13.altis_done",
-	"BIS_showcase_scuba.stratis_titlecard"
+	"BIS_showcase_scuba.stratis_titlecard",
+	"BIS_111sog_OperatorDepot.Altis_done"
 };
 currentCampaign="A3\Missions_F_EPA\Campaign";
 bootCampWarning=1;
@@ -549,6 +550,11 @@ FavoriteServers[]=
 	
 	{
 		"65.31.7.134:2302",
+		2
+	},
+	
+	{
+		"108.61.120.131:2302",
 		2
 	}
 };
@@ -634,10 +640,10 @@ class Filter
 	battleyeRequired=0;
 	expansions=1;
 };
-remoteIPAddress="65.31.7.134";
+remoteIPAddress="108.61.120.131";
 remotePort=2302;
 difficultyMP="regular";
-lastMPMission="111SOG_TheIsland";
+lastMPMission="Zombeez";
 class JoysticksList
 {
 	class Joystick1
@@ -756,23 +762,56 @@ class DifficultyPresets
 };
 teamSwitchOffsetX=0;
 teamSwitchOffsetY=0;
+battleyeLicense=1;
+keyEditorCameraMoveForward[]={17};
+keyEditorCameraMoveBackward[]={31};
+keyEditorCameraMoveLeft[]={30};
+keyEditorCameraMoveRight[]={32};
+keyEditorCameraMoveUp[]={16};
+keyEditorCameraMoveDown[]={44};
+keyEditorCameraMoveTurbo[]={42,54};
+keyEditorCameraLookLeft[]={75};
+keyEditorCameraLookRight[]={77};
+keyEditorCameraLookUp[]={72};
+keyEditorCameraLookDown[]={80};
+keyCameraMoveForward[]={17};
+keyCameraMoveBackward[]={31};
+keyCameraMoveLeft[]={30};
+keyCameraMoveRight[]={32};
+keyCameraMoveUp[]={16};
+keyCameraMoveDown[]={44};
+keyCameraMoveTurbo1[]={42,54};
+keyCameraMoveTurbo2[]={56,184};
+keyCameraZoomIn[]={78};
+keyCameraZoomOut[]={74};
+keyCameraLookUp[]={72};
+keyCameraLookDown[]={80};
+keyCameraLookLeft[]={75};
+keyCameraLookRight[]={77};
+keyCameraReset[]={76};
+keyCameraTarget[]={33};
+keyCameraVisionMode[]={49};
+keyCameraFlashlight[]={38};
+keyCameraInterface[]={14};
 mouseSensitivityX=1;
 mouseSensitivityY=1;
 floatingZoneArea=0;
-battleyeLicense=1;
 headBob=1;
 sceneComplexity=1000000;
 shadowZDistance=100;
 viewDistance=3799.9983;
-preferredObjectViewDistance=1600;
+preferredObjectViewDistance=1600.0001;
 terrainGrid=3.125;
 volumeCD=3.5535769;
-volumeFX=3.9424033;
+volumeFX=9.6192722;
 volumeSpeech=9.5415068;
 volumeVoN=9.5415068;
 vonRecThreshold=0.00091786013;
-gamma=1.0161306;
-brightness=0.70331192;
+gamma=0.9814384;
+ppBrightness=1;
+ppContrast=1;
+ppSaturation=1;
+brightness=1.2247978;
 fovTop=0.75;
 fovLeft=1.3333334;
 uiTopLeftX=0.32375002;
