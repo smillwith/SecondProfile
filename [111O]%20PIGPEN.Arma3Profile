@@ -525,7 +525,8 @@ activeKeys[]=
 	"BIS_sp_fd04_done",
 	"BIS_sp_fd13.altis_done",
 	"BIS_showcase_scuba.stratis_titlecard",
-	"BIS_111sog_OperatorDepot.Altis_done"
+	"BIS_111sog_OperatorDepot.Altis_done",
+	"BIS_ZombieHunter.Chernarus_establishingShot"
 };
 currentCampaign="A3\Missions_F_EPA\Campaign";
 bootCampWarning=1;
@@ -640,10 +641,10 @@ class Filter
 	battleyeRequired=0;
 	expansions=1;
 };
-remoteIPAddress="108.61.120.131";
+remoteIPAddress="65.31.7.134";
 remotePort=2302;
 difficultyMP="regular";
-lastMPMission="Zombeez";
+lastMPMission="TerroristSandbox";
 class JoysticksList
 {
 	class Joystick1
@@ -800,10 +801,10 @@ headBob=1;
 sceneComplexity=1000000;
 shadowZDistance=100;
 viewDistance=3799.9983;
-preferredObjectViewDistance=1600.0001;
+preferredObjectViewDistance=1600;
 terrainGrid=3.125;
 volumeCD=3.5535769;
-volumeFX=9.6192722;
+volumeFX=6.6641908;
 volumeSpeech=9.5415068;
 volumeVoN=9.5415068;
 vonRecThreshold=0.00091786013;
